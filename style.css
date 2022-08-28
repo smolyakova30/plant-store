@@ -1,0 +1,20 @@
+body {
+    background: #cfe1b9;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+span {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    color: #333d29;text-shadow: 2px 2px #588157;
+}
+
+.heading {
+    font-family: 'Architects Daughter', cursive;
+}
