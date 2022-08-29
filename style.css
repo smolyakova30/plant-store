@@ -1,5 +1,5 @@
 body {
-    background: #cfe1b9;
+    background: #b6ad90;
 }
 
 .heading {
@@ -7,6 +7,10 @@ body {
     flex-direction: column;
     align-items: center;
     
+}
+
+h1, h2 {
+    margin: 2px;
 }
 
 span {
@@ -29,8 +33,27 @@ span {
     background-position: center;
     font-family: 'Architects Daughter', cursive;
     flex: 1;
+    margin: 5px;
+    position: relative;
 }
 
+h4 {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    background-color: #b6ad90;
+    color: black;
+    opacity: 0;
+}
+
+.price{
+    position: absolute;
+    background-color: #b6ad90;
+    color: black; 
+    bottom: 40px;
+    left: 20px;
+    opacity: 0;
+}
 .one {
 background-image: url(/src/pineapple.jpg);
 }
@@ -53,4 +76,20 @@ background-image: url(/src/money-tree.jpg);
 
 .six {
     background-image: url(/src/aechmea.jpg);
+}
+
+.selected {
+    flex: 4;
+}
+
+.selected h4 {
+    font-size: 40px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+.selected p {
+    font-size: 50px;
+    transition: all 1s ease-in;
+    opacity: 1;
 }
