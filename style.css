@@ -93,3 +93,23 @@ background-image: url(/src/money-tree.jpg);
     transition: all 1s ease-in;
     opacity: 1;
 }
+
+label {
+font-size: 30px;
+}
+
+.text-input {
+    background-color: #b6ad90;
+    border: 1px solid #333d29;
+}
+
+.btn {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    color: #333d29; 
+    font-weight: bold;
+    background-color: #b5c99a;
+    width: 200px;
+    border: 1px solid #333d29;
+    border-radius: 10px;
+}
