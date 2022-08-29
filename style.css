@@ -113,3 +113,18 @@ font-size: 30px;
     border: 1px solid #333d29;
     border-radius: 10px;
 }
+
+#carousel {
+    display: flex;
+    justify-content: center;
+}
+
+#pictures {
+    width: 400px;
+    height: 600px;
+}
+
+.btnBtn {
+   width: auto;
+   padding: 10px;
+}
