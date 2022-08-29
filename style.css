@@ -55,27 +55,27 @@ h4 {
     opacity: 0;
 }
 .one {
-background-image: url(/src/pineapple.jpg);
+background-image: url(src/pineapple.jpg);
 }
 
 .two {
-background-image: url(/src/money-tree.jpg);
+background-image: url(src/money-tree.jpg);
 }
 
 .three {
-    background-image: url(/src/watermelon.jpg);
+    background-image: url(src/watermelon.jpg);
 }
 
 .four {
-    background-image: url(/src/chinese.jpg);
+    background-image: url(src/chinese.jpg);
 }
 
 .five {
-    background-image: url(/src/calathea.jpg);
+    background-image: url(src/calathea.jpg);
 }
 
 .six {
-    background-image: url(/src/aechmea.jpg);
+    background-image: url(src/aechmea.jpg);
 }
 
 .selected {
