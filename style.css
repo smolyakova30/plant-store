@@ -134,12 +134,17 @@ font-size: 30px;
 }
 
 #search {
+    margin-left: 200px;
+    margin-right: 200px;
     flex:1;
+    font-size: 15px;
+    padding: 15px;
 }
 
 .mainContainer {
     display: flex;
     flex-wrap: wrap;
+   
 }
 
 .plantSearch {
@@ -147,4 +152,16 @@ font-size: 30px;
     flex-direction: column ;
     margin: 10px;
     padding: 20px;
+    flex: 4;
+    margin-left: 50px;
+   
+}
+
+.nameSearch {
+    color: black;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+    flex: 1;
+    margin: 5px;
+    text-decoration: none;
 }
